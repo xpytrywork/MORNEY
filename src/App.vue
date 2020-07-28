@@ -1,22 +1,17 @@
 <template>
   <div>
-    App
-    <hr />
+    <!-- App
+    <hr />-->
     <router-view />
-    <div>
-      <router-link to="money">记账</router-link>|
-      <router-link to="labels">标签</router-link>|
-      <router-link to="statistics">统计</router-link>|
-    </div>
-    <!-- 帮助定位 -->
   </div>
 </template>
 
 <style lang="scss">
-// @import "assets/styles/test.scss";
-// body {
-//   background-color: $red;
-// }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

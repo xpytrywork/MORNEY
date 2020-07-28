@@ -1,8 +1,7 @@
 <template>
   <div>
-    <Layout>
-      <p>Labels.vue</p>
-    </Layout>
+    你所查询的网页路径错误
+    <router-link to="/">点击返回首页</router-link>
   </div>
 </template>
 
